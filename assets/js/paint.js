@@ -41,37 +41,55 @@ function changeImage(elementId) {
 //     image.src = elementId.src;
 // }
 
-function getProductInfo(paintColor) {
+function getProductInfo(part number) {
     let price;
     let colorName;  
     
-    switch (paintColor) {
-        case 'pn1':           
-            // set variables for price and color name and invoke a function to update the price     
+    switch (partNumber) {
+        case 'pn1':
+            price = '$19.99'
+            colorName = 'Lime Green'
+            updatePrice(colorName, price)           
             break;           
         case 'pn2':
-            // set variables for price and color name and invoke a function to update the price    
+            price = '$12.99'
+            colorName = 'Medium Brown' 
+            updatePrice(colorName, price)
             break;            
         case 'pn3':
-            // set variables for price and color name and invoke a function to update the price  
+            price = '$11.99'
+            colorName = 'Royal Blue'   
+            updatePrice(colorName, price)   
             break;   
         case 'pn4':
-            // set variables for price and color name and invoke a function to update the price  
+            price = '$14.99'
+            colorName = 'Bright Red'            
+            updatePrice(colorName, price)    
             break;   
         case 'pn5':
-            // set variables for price and color name and invoke a function to update the price       
-            break;   
+            price = '$9.99'
+            colorName = 'Solid White' 
+            updatePrice(colorName, price) 
+            break;
         case 'pn6':
-            // set variables for price and color name and invoke a function to update the price        
+            price = '$15.99'
+            colorName = 'Solid Black'   
+            updatePrice(colorName, price)            
             break;   
         case 'pn7':
-            // set variables for price and color name and invoke a function to update the price 
+            price = '$8.99'
+            colorName = 'Medium Blue'       
+            updatePrice(colorName, price)           
             break;   
         case 'pn8':
-            // set variables for price and color name and invoke a function to update the price   
+            price = '$16.99'
+            colorName = 'Light Purple'      
+            updatePrice(colorName, price)             
             break;   
         case 'pn9':
-            // set variables for price and color name and invoke a function to update the price 
+            price = '$17.99'
+            colorName = 'Bright Yellow'                       
+            updatePrice(colorName, price)          
             break;   
           default:              
     }
