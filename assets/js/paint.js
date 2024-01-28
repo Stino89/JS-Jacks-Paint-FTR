@@ -26,6 +26,7 @@ function removeOpacity(event) {
     let element = document.getElementById('color-price');
         element.textContent = '';
         
+    let color = document.getElementById('color');
     let color = document.getElementById('color-name');
         color.textContent = ''; 
 
