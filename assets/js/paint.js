@@ -32,6 +32,14 @@ function removeOpacity(event) {
 
     event.preventDefault();    
 }
+function changeImage(elementId) {
+    let image = document.getElementById('imgDisplay');
+    image.src = elementId.src;
+}
+// function changeImage(elementId) {
+//     let image = document.getElementById('imgDisplay');
+//     image.src = elementId.src;
+// }
 
 function getProductInfo(paintColor) {
     let price;
